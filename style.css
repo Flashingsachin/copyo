@@ -1,0 +1,19 @@
+body{
+    background-image: url("Screenshot\ \(1436\).png");
+    background-size: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: aqua;
+}
+div{
+    margin:190px;
+    border-style: dashed;
+    border-radius: 10px;
+
+}
+div :first-child{
+    text-align: center;
+}
+div :nth-child(2){
+    font-size: 20px;
+}

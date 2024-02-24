@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <style>
+        .hanamun {
+            width: 400px;
+            border-radius: 50%;
+        }
+
+        .one {
+            text-align: center;
+        }
+
+        form {
+            border: 3px solid rgba(23, 90, 49, 0.4)
+        }
+
+        #username {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: 1px solid rgba(69, 63, 58, 0.331);
+            box-sizing: border-box;
+        }
+
+        #password {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: 1px solid rgba(69, 63, 58, 0.331);
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: greenyellow;
+            color: red;
+            padding: 14px 20px;
+            margin: 18px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            border-radius:10px;
+        }
+        .om{
+            width: auto;
+            padding: 12px 20px;
+        }
+        .sachin{
+            padding: 16px;
+        }
+        .fpw{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="get">
+        <div class="one">
+            <img src="Screenshot (1436).png" class="hanamun">
+        </div>
+        <div>
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Enter Username" required>
+            <label for="password">Password</label>
+            <input type="text" id="password" placeholder="Enter Password" required>
+            <button type="submit">Login</button>
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">Remember me</label>
+        </div>
+        <div class="sachin">
+            <button type="submit" class="om">Cancel</button>
+            <span class="fpw">Forget<a href="">Password</a></span>
+        </div>
+    </form>
+</body>
+
+</html>
